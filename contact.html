@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Lab Task 5 WebApps</title> 
+
+  <link rel="stylesheet" type="text/css"  href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css"/>
+  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  
+<style>
+body {
+ font-family: 'Arial', sans-serif;
+    }
+
+ .container span,
+ .container p {
+  font-family: 'Arial', sans-serif;
+    }
+	
+.container {
+ border: 2px solid #ccc;
+ background-color: #ccc;
+ border-radius: 5px;
+ padding: 16px;
+ margin: 16px 0
+}
+
+.container::after {
+ content: "";
+ clear:both;
+ display: table;
+ }
+ 
+.container img{
+ float: left;
+ margin-right: 20px;
+ 
+ }
+ 
+.container span {
+ font-size: 16px;
+ margin-right: 15px;
+ }
+ 
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+	
+  }
+}
+
+ .container img {
+  margin: auto;
+  float: none;
+  display: block;
+  width: 50%
+  
+  }
+ }
+ 
+ 
+</style>
+</head>
+ 
+ 
+ <body>
+ <div data-role="page" id="index">
+ <div data-role="header">
+    <h1> Lab Task 5 WebApps</h1>
+ </div>
+ <div data-role="navbar">
+ <ul>
+    <li><a href="index.html" rel="external" data-theme="b"  data-icon="home">About Us</a></li>
+	<li><a href="Portfolio.html" rel="external" data-theme="b" data-icon="grid">Portfolio</a></li>
+	<li><a href="Contact.html" rel="external" data-theme="b" data-icon="info">Contact Us</a></li>
+ </ul>
+ </div>
+   
+ <div data-role="content">
+    <h2>Contact Us</h2>
+	<ul data-role="Listview" data-inset="true" class="ui-btn-icon-Right" data-theme="b">
+	<a href="tel:+0139636895" data-role="button" data-theme="b" data-icon="arrow-r"><center>Call Us</center></a>
+	<a href="mailto:brunta12544@gmail.com"data-role="button" data-theme="b" data-icon="arrow-r"><center>Email Us</center></a>
+	<a href="https://wa.me/60139636895"data-role="button" data-theme="b" data-icon="arrow-r"><center>Whatsapp Us</center></a>
+	</ul>
+ </div>
+ 
+  <h2>Testimonials</h2>
+  <div class="container">
+  <img src="jivean.JPG" style="width:120px">
+  <center><p><span>JIVEANTHIRAN A/L GUNALAN</span></p> 
+  <p>SEMESTER 4</p>
+  <p><i>"Choosing Politeknik Seberang Perai for my Diploma in Digital Technology has been a game-changer. The curriculum is comprehensive, covering everything from programming to digital design. The hands-on approach and well-equipped labs have made the learning experience both engaging and practical. I feel well-prepared for a future in the dynamic field of digital technology."</i></p></center>
+  </div>
+  
+  <div class="container">
+  <img src="sharvind.JPG" style="width:120px">
+  <center><p><span>SHARVINDSRI NAIR A/L MANIMAREN</span></p>
+  <p>SEMESTER 4</p>
+  <p><i> "Politeknik Seberang Perai has exceeded my expectations in delivering a top-notch education in Digital Technology. The dedicated lecturers and industry-relevant curriculum have equipped me with the skills needed in today's tech-driven world. The emphasis on projects and teamwork has enhanced my problem-solving abilities, and I am confident about entering the workforce with a strong foundation."</i></p></center>
+  </div>
+  
+  <div class="container">
+  <img src="brunta.JPG" style="width:120px">
+  <center><p><span>BRUNTA A/P KRISHNAMOORTHY</span></p>
+  <p>SEMESTER 4</p>
+  <p><i> "Embarking on my Diploma in Digital Technology journey at Politeknik Seberang Perai has been thrilling. The supportive learning environment, coupled with the cutting-edge technology used in the labs, has made the learning process enjoyable. I appreciate the balance between theoretical knowledge and practical application, and I look forward to exploring the diverse aspects of digital technology in the coming years."</i></p></center>
+  </div>
+  
+  <div class="container">
+  <img src="nadia.JPG" style="width:120px">
+  <center><p><span>NADIA BINTI SHAHRUL AZMEE </span></p>
+  <p>SEMESTER 4</p>
+  <p><i>"As an Information Technology student, I appreciate the modern infrastructure and up-to-date labs at Politeknik Seberang Perai. The curriculum is designed to keep pace with industry trends, and the supportive lecturers make complex topics easy to understand. I am confident that the skills I am acquiring here will open doors to exciting career opportunities."</i></p></center>
+  </div>
+  
+    <div data-role="footer" data-position="fixed">
+	<h4>Copyright &copy; DDT4C S1 2023/2024. All rights reserved</h4>
+	</div>
+ </div>
+ </body>
+ </html>
+	
+	  
+ 
